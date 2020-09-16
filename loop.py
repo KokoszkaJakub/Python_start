@@ -10,5 +10,5 @@ for letter in "Loop with if":
         print("this is first letter")
     else:
         print(i)
-        i = i +1
+        i += 1
     print(letter)
