@@ -1,7 +1,7 @@
 try:
     number1 = int(input("podaj pierwszą liczbę: "))
 
-    mat = ""
+    mat = input("podaj znak działania: ")
 
     while mat != "+" and mat != "-" and mat != "*" and mat != "/":
         print("zły znak działania !")
